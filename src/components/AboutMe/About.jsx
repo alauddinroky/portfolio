@@ -16,8 +16,8 @@ function About() {
         transition: "all 3s ease",
       }}
       className="mx-auto py-10 xl:py-0 xl:h-[100vh] flex items-center"
+      id="about"
     >
-      {console.log(inView)}
       <div className="text-center container">
         <p>Get to know more</p>
         <h2 className="mb-8">About Me</h2>
@@ -34,7 +34,7 @@ function About() {
                   />
                 </span>
                 <h4 className="font-bold">Experience </h4>
-                <span>2+ years </span>
+                <span>3+ years </span>
                 <span>Frontend Development</span>
               </div>
               <div className="c-border p-7 col-center">
@@ -42,18 +42,21 @@ function About() {
                   <IoIosRibbon style={{ fontSize: "3rem" }} />
                 </span>
                 <h4 className="font-bold">Education </h4>
-                <span>B.Sc. Bachelors Degree </span>
-                <span>M.Sc. Masters Degree</span>
+                <span>BA Bachelors Degree </span>
+                <span>MA Masters Degree</span>
               </div>
             </div>
             <div className="bottom">
               <p className="text-left">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                quis reprehenderit et laborum, rem, dolore eum quod voluptate
-                exercitationem nobis, nihil esse debitis maxime facere minus
-                sint delectus velit in eos quo officiis explicabo deleniti
-                dignissimos. Eligendi illum libero dolorum cum laboriosam
-                corrupti quidem, reiciendis ea magnam? Nulla, impedit fuga!
+                I am a passionate front-end developer with three years of
+                experience, specializing in creating clean and intuitive user
+                interfaces. Through freelance projects, I have cultivated strong
+                skills in HTML, CSS, JavaScript, and frameworks like React . I
+                thrive on solving challenges and am committed to delivering
+                high-quality solutions that enhance user experiences. With a
+                collaborative approach and a drive for continuous learning, I
+                aim to contribute effectively to innovative web development
+                projects.
               </p>
             </div>
           </div>

@@ -25,19 +25,21 @@ function Contact() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="flex flex-col sm:flex-row gap-6 justify-around c-border p-5 md:max-w-[80%] lg:max-w-[60%] mx-auto"
         >
-          <motion.div
+          <motion.a
+            href="mailto:alauddinroky4@gmail.com"
             whileHover={{ scale: 1.1 }}
             className="f-center gap-2 hover:text-gray cursor-pointer"
           >
             <FaEnvelope style={{ fontSize: "1.5rem" }} />{" "}
             alauddinroky4@gmail.com
-          </motion.div>
-          <motion.div
+          </motion.a>
+          <motion.a
+            href="https://www.linkedin.com/in/mohammed-alauddin-pro/"
             whileHover={{ scale: 1.1 }}
             className="f-center gap-2 hover:text-gray cursor-pointer"
           >
             <FaLinkedin style={{ fontSize: "1.5rem" }} /> Linkedin
-          </motion.div>
+          </motion.a>
         </motion.div>
 
         <motion.div
@@ -54,28 +56,28 @@ function Contact() {
           >
             <motion.a
               whileHover={{ scale: 1.1 }}
-              href=""
+              href="#about"
               className="hover-border"
             >
               About
             </motion.a>
             <motion.a
               whileHover={{ scale: 1.1 }}
-              href=""
+              href="#experiences"
               className="hover-border"
             >
               Experience
             </motion.a>
             <motion.a
               whileHover={{ scale: 1.1 }}
-              href=""
+              href="#projects"
               className="hover-border"
             >
               Projects
             </motion.a>
             <motion.a
               whileHover={{ scale: 1.1 }}
-              href=""
+              href="#contact"
               className="hover-border"
             >
               Contact
@@ -86,7 +88,7 @@ function Contact() {
             animate={{ opacity: inView ? 1 : 0 }}
             transition={{ duration: 0.5, delay: 0.8 }}
           >
-            Copyright © 2023 John Doe. All Rights Reserved.
+            Copyright © 2023 Mohammed Alauddin. All Rights Reserved.
           </motion.p>
         </motion.div>
       </motion.div>

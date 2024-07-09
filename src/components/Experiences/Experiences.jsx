@@ -3,7 +3,7 @@ import { frontSkills, backSkills } from "./data";
 import Card from "./Card";
 function Experiences() {
   return (
-    <div className="xl:h-[100vh] flex items-center w-full">
+    <div className="xl:h-[100vh] flex items-center w-full" id="experiences">
       <div className="py-10 xl:py-0 text-center container">
         <p>Explore my</p>
         <h2 className="mb-8">Experiences</h2>

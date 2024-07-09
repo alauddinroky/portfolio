@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 import { projectsData } from "./data.js";
 function Projects() {
   return (
-    <div className="projects py-14">
+    <div className="projects py-14" id="projects">
       <div className="container text-center ">
         <p>Browse My Recent</p>
         <h2 className="mb-8">Projects</h2>
